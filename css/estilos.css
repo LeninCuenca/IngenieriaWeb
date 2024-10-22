@@ -1,0 +1,36 @@
+
+.cabecera{
+    height: 200px;
+    background-color: #c47a6a;
+}
+.cabecera img{
+    float: left;
+    width: 10%;
+}
+.cabecera .botones{
+    float:right;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.container ol{
+    display: flex;
+    list-style: none;
+}
+.container ol li{
+    margin: 10px 10px;
+    font-size: 1.8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container ol li{
+    color: white;
+    text-decoration: none;
+
+}
+.container ol li a:hover{
+    font-size: 1.7em;
+    color: black;
+
+}
+
